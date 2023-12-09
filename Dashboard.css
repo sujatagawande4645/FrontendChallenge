@@ -1,0 +1,41 @@
+/* src/Dashboard.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #192a3a; /* Dark Navy Blue background */
+    color: #ffffff; /* White text color */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #ffffff; /* White text color */
+    text-align: center;
+  }
+  
+  select {
+    padding: 8px;
+    margin-bottom: 16px;
+    background-color: #2c3e50; /* Darker Navy Blue background for select */
+    color: #ffffff; /* White text color for select */
+  }
+  
+  .tile {
+    background-color: #34495e; /* Slightly lighter Navy Blue background for tiles */
+    border: 1px solid #2c3e50; /* Darker Navy Blue border for tiles */
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Optional: Add hover effect to tiles */
+  .tile:hover {
+    background-color: #2c3e50; /* Darker Navy Blue on hover */
+    transition: background-color 0.3s ease;
+  }
+  
